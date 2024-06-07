@@ -71,11 +71,11 @@
     <Content Include="Pagina2.aspx" />
     <Content Include="Pagina3.aspx" />
     <Content Include="Pagina5.aspx" />
+    <Content Include="Pagina6.aspx" />
     <Content Include="Styles.css" />
     <Content Include="Web.config" />
     <Content Include="Pagina1.aspx" />
     <Content Include="index.aspx" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pagina2.aspx.cs">
@@ -98,6 +98,13 @@
     </Compile>
     <Compile Include="Pagina5.aspx.designer.cs">
       <DependentUpon>Pagina5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina6.aspx.cs">
+      <DependentUpon>Pagina6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina6.aspx.designer.cs">
+      <DependentUpon>Pagina6.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pagina1.aspx.cs">

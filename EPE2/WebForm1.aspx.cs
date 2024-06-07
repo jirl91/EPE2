@@ -33,5 +33,10 @@ namespace EPE2
         {
             Response.Redirect("Pagina5.aspx");
         }
+
+        protected void Mostrar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Pagina6.aspx");
+        }
     }
 }
