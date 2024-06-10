@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="EPE2.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="INDEX.aspx.cs" Inherits="EPE2.INDEX" %>
 
 <!DOCTYPE html>
 
@@ -33,6 +33,9 @@
             <asp:Button ID="form" runat="server" OnClick="Form_Click" Text="Formulario contacto" class="buttonred"/>
         <div/>
 
+        <h2>Ir pagina web 4</h2>
+        <asp:Button ID="calculadora" runat="server" OnClick="Calculadora_Click" Text="Calculadora" class="buttonred"/>
+
         <div/>
         <h2>Ir pagina web 5</h2>
         <asp:Button ID="Button1" runat="server" OnClick="array_Click" Text="Ejemplo de Arrays y Vectores" class="buttonred"/>
@@ -41,6 +44,10 @@
         <div/>
         <h2>Ir pagina web 6</h2>
         <asp:Button ID="mostrar" runat="server" OnClick="Mostrar_Click" Text="Tipos de variables Locales-Globales-Estáticas" class="buttonred"/>
+
+        <div/>
+        
+
 
 <div/>
         

@@ -7,12 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace EPE2
 {
-    public partial class index: System.Web.UI.Page
+    public partial class INDEX : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
+ 
 
         protected void Promedio_Click(object sender, EventArgs e)
         {
@@ -29,6 +31,11 @@ namespace EPE2
             Response.Redirect("Pagina3.aspx");
         }
 
+        protected void Calculadora_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Pagina4.aspx");
+        }
+
         protected void array_Click(object sender, EventArgs e)
         {
             Response.Redirect("Pagina5.aspx");
@@ -38,5 +45,8 @@ namespace EPE2
         {
             Response.Redirect("Pagina6.aspx");
         }
+
+        
     }
 }
+    

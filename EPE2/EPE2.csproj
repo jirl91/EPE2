@@ -70,6 +70,7 @@
     <Content Include="imagen\imagen.jpg" />
     <Content Include="Pagina2.aspx" />
     <Content Include="Pagina3.aspx" />
+    <Content Include="Pagina4.aspx" />
     <Content Include="Pagina5.aspx" />
     <Content Include="Pagina6.aspx" />
     <Content Include="Styles.css" />
@@ -78,6 +79,13 @@
     <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="INDEX.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="INDEX.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pagina2.aspx.cs">
       <DependentUpon>Pagina2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -91,6 +99,13 @@
     </Compile>
     <Compile Include="Pagina3.aspx.designer.cs">
       <DependentUpon>Pagina3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina4.aspx.cs">
+      <DependentUpon>Pagina4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina4.aspx.designer.cs">
+      <DependentUpon>Pagina4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pagina5.aspx.cs">
       <DependentUpon>Pagina5.aspx</DependentUpon>
@@ -113,13 +128,6 @@
     </Compile>
     <Compile Include="Pagina1.aspx.designer.cs">
       <DependentUpon>Pagina1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

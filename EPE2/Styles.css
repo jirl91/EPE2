@@ -1,4 +1,5 @@
-﻿body {
+﻿/* Estilo para el cuerpo y otros elementos */
+body {
     font-family: Calibri, sans-serif;
 }
 
@@ -19,38 +20,45 @@ textarea {
     box-sizing: border-box;
 }
 
-input[type="submit"] {
+/* Estilo para los botones con diferentes clases */
+.buttonyellow {
+    background-color: yellow;
+    color: black;
     padding: 10px 20px;
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px; /* Opcional: Tamaño de fuente */
 }
 
-    input[type="submit"].buttongreen {
-        background-color: green;
+    .buttonyellow:hover {
+        background-color: #ffd700;
     }
 
-        input[type="submit"].buttongreen:hover {
-            background-color: #45a049;
-        }
+.buttongreen {
+    background-color: green;
+}
 
-    input[type="submit"].buttonred {
-        background-color: red;
+    .buttongreen:hover {
+        background-color: #45a049;
     }
 
-        input[type="submit"].buttonred:hover {
-            background-color: #b30000;
-        }
+.buttonred {
+    background-color: red;
+}
 
-    input[type="submit"].buttonblack {
-        background-color: black; /* Cambiar el color de fondo a negro */
-        color: white; /* Cambiar el color del texto a blanco para mayor contraste */
+    .buttonred:hover {
+        background-color: #b30000;
     }
 
-        input[type="submit"].buttonblack:hover {
-            background-color: #333; /* Cambiar el color de fondo al pasar el ratón */
-        }
+.buttonblack {
+    background-color: black;
+    color: white;
+}
+
+    .buttonblack:hover {
+        background-color: #333;
+    }
 
 img {
     width: 300px;
