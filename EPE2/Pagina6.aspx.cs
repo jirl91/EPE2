@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace EPE2
 {
@@ -18,7 +13,7 @@ namespace EPE2
 
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+
             // Variable estática
             variableEstatic = 30; // Actualizar el valor de la variable estática
         }
@@ -35,7 +30,7 @@ namespace EPE2
         protected void Mostrar_Click(object sender, EventArgs e)
         {
 
-           // Asignar valor a la variable local
+            // Asignar valor a la variable local
             variableLocal = 10;
             // Mostrar las variables
             Var_instan.Text = "Variable global: " + variableGlobal;

@@ -12,11 +12,12 @@
     <form id="form1" runat="server" class="form-background">
         <img src="imagen/imagen.jpg" width="300" height="200" alt=" " />
         <div class="container">
+             <h1>Hola! mi nombre es</h1>
             <h1>Jasna Ramirez Luengo</h1>
             <img src="imagen/jasna.jpeg" style="width: 300px; height: 400px;" alt=" " />
         </div>
         <div class="container">
-            <h2>Biografia personal y profesional </h2>
+            <h2>Te presento una breve biografía personal y profesional </h2>
         </div>
         <div class="container">
             <h4>Nací en Concepción el 30 de marzo de 1991, un sábado de otoño. Desde los 3 años vivo en Batuco con mi mamá, Lila Luengo. Tengo una hermana de 42 años, Jessica Quijada, y una sobrina de 10 años, Consuelo Castillo. Además, tengo una relación de 3 años con mi pololo, Bastián.<br />
@@ -32,6 +33,8 @@
 <br />En Klap, trabajé en el área de operaciones, donde desarrollé mis capacidades en inventario y análisis de falencias, además de ser un aporte para mis compañeros. Posteriormente, me cambié al área de Administración y Finanzas, donde actualmente me desempeño en el área de compras.
 
 </h4>
+
+            <asp:Button ID="Index" runat="server" Text="Volver al Index" OnClick="Index_Click" class="buttonred" />
         </div>
 
     </form>

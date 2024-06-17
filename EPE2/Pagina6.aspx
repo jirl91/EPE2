@@ -10,10 +10,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-
-             <h1>Ejemplo de Ámbito de varibles</h1>
-
+        <div class="container">
+             <h1>Pagina 6 - Jasna Ramirez</h1>
+            
+             <img src="imagen/imagen.jpg" width="300" height="200" alt="Imagen" /><br />
+            <h1>Ejemplo de Ámbito de varibles</h1>
 
               <asp:Button ID="Mostar" runat="server" Text="Mostar Variable" OnClick="Mostrar_Click" class="buttongreen" />
               <br />
@@ -27,7 +28,7 @@
                 <br />
 
 
-            <asp:Button ID="Index" runat="server" Text="Volver al Index" OnClick="Index_Click" class="buttongreen" />
+            <asp:Button ID="Index" runat="server" Text="Volver al Index" OnClick="Index_Click" class="buttonred" />
             <br />
         </div>
     </form>

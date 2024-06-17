@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace EPE2
 {
@@ -14,7 +9,7 @@ namespace EPE2
 
         }
 
- 
+
 
         protected void Promedio_Click(object sender, EventArgs e)
         {
@@ -54,4 +49,4 @@ namespace EPE2
 
     }
 }
-    
+

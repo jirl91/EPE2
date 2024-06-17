@@ -1,5 +1,8 @@
 ﻿body {
     font-family: Calibri, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 .form-field {
@@ -14,19 +17,23 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 20%;
+    width: 100%;
     padding: 8px;
     box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .buttonyellow {
     background-color: yellow;
     color: white;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    border: none;
+    text-align: center;
 }
 
     .buttonyellow:hover {
@@ -40,6 +47,8 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    border: none;
+    text-align: center;
 }
 
     .buttongreen:hover {
@@ -53,6 +62,8 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    border: none;
+    text-align: center;
 }
 
     .buttonred:hover {
@@ -66,6 +77,8 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    border: none;
+    text-align: center;
 }
 
     .buttonblack:hover {
@@ -79,6 +92,8 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    border: none;
+    text-align: center;
 }
 
     .buttonblue:hover {
@@ -86,36 +101,51 @@ textarea {
     }
 
 img {
-    width: 300px;
-    height: 200px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .container {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
     background-color: rgba(245, 245, 245, 0.8);
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .img-large {
-    width: 300px;
-    height: 400px;
-}
-
-.img-fullscreen {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    border-radius: 5px;
 }
 
 .form-background {
     background-color: #C59041;
     padding: 20px;
     border-radius: 5px;
+}
+
+.form-control {
+    width: 200px; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+}
+
+.container .textbox-style {
+    width: 200px; /* Ajusta el ancho a 150px */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 10px;
 }

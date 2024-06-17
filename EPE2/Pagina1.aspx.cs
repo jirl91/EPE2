@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace EPE2
 {
@@ -27,7 +23,7 @@ namespace EPE2
 
             // Calcular el total de puntos (suma de los productos de notas por porcentajes)
             // Corrección del cálculo del resultado
-            double resultado = (numero1 * 0.07 + numero2 * 0.07 + numero3 * 0.14 + numero4 * 0.07 + numero5 * 0.14 + numero6 * 0.21)+ (numero7 *0.30);
+            double resultado = (numero1 * 0.07 + numero2 * 0.07 + numero3 * 0.14 + numero4 * 0.07 + numero5 * 0.14 + numero6 * 0.21) + (numero7 * 0.30);
 
             // Mostrar el resultado en el label
             lblresultado.Text = " " + resultado.ToString();
@@ -38,5 +34,5 @@ namespace EPE2
             Response.Redirect("index.aspx");
         }
 
-        }
+    }
 }
