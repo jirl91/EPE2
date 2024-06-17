@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-.form-field {
-    margin-bottom: 20px;
-}
-
 label {
     display: block;
     margin-bottom: 5px;
@@ -17,13 +13,48 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 30%;
     padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.form-background {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.buttonred {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .buttonred:hover {
+        background-color: #c9302c;
+    }
 
 .buttonyellow {
     background-color: yellow;
@@ -53,21 +84,6 @@ textarea {
 
     .buttongreen:hover {
         background-color: #45a049;
-    }
-
-.buttonred {
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    text-align: center;
-}
-
-    .buttonred:hover {
-        background-color: #b30000;
     }
 
 .buttonblack {
@@ -108,44 +124,30 @@ img {
     border-radius: 5px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: rgba(245, 245, 245, 0.8);
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+.profile-img {
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
-.img-large {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+.bio-text {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
 }
-
 .form-background {
     background-color: #C59041;
     padding: 20px;
     border-radius: 5px;
 }
 
-.form-control {
-    width: 200px; 
-    padding: 8px;
+.container.textbox-style {
+    width: 100%;
+    padding: 40px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
-    font-size: 14px; /* Ajusta el tamaño de la fuente */
-}
-
-.container .textbox-style {
-    width: 200px; /* Ajusta el ancho a 150px */
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    font-size: 14px;
     margin-bottom: 10px;
 }
