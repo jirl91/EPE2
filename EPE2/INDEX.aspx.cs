@@ -46,7 +46,12 @@ namespace EPE2
             Response.Redirect("Pagina6.aspx");
         }
 
-        
+        protected void Blog_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Pagina7.aspx");
+        }
+
+
     }
 }
     
